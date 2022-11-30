@@ -18,9 +18,9 @@ description: React가 탄생한 이유에 대해 살펴보며, React의 중요�
 
 ### MPA의 특징
 
-* 여러 개(Multiple)의 Page로 구성된 Application
+* 여러 개(Multiple)의 Page로 구성된 Application.
 * 새로운 페이지를 요청할 때마다 서버에서 렌더링된 정적 리소스(html, css, javascript)가 다운로드된다.&#x20;
-* 페이지를 이동하거나 새로고침하면 전체 페이지를 다시 렌더링한다&#x20;
+* 페이지를 이동하거나 새로고침하면 전체 페이지를 다시 렌더링한다.
 
 <figure><img src=".gitbook/assets/스크린샷 2022-11-30 오후 5.35.09.png" alt=""><figcaption></figcaption></figure>
 
@@ -43,4 +43,41 @@ description: React가 탄생한 이유에 대해 살펴보며, React의 중요�
 
 
 ## <mark style="background-color:yellow;">React란?</mark>
+
+* 페이스북이 만든 Javascript 기반의 라이브러리.
+* 사용자 인터페이스를 구축하기 위한 선언적이고 효율적이며 유연한 라이브러리.
+* **'Component'**라고 불리는 작고 고립된 코드의 파편을 이용하여 복잡한 UI를 구성하도록 도움.
+  * 쉽게 얘기하면, 작은 부품들을 조립하여 하나의 어플리케이션을 만들 수 있게 해줌.&#x20;
+* **JSX**라는 Javascript 확장문법을 사용하여 javascript 파일에 html을 작성할 수 있게 해줌.&#x20;
+
+> 지속해서 데이터가 변화하는 대규모 애플리케이션을 구축하기 위해 React를 만들었습니다.&#x20;
+
+<figure><img src=".gitbook/assets/스크린샷 2022-11-30 오후 5.46.24.png" alt=""><figcaption></figcaption></figure>
+
+
+
+### React의 주요 특징 1 : SPA
+
+React는 **SPA(Single Page Application)** 개발 라이브러리입니다.&#x20;
+
+* 한 개(Single)의 Page로 구성된 Application.
+* 하나의 html 파일을 가지고, 나머지는 javascript를 이용하여 동적으로 화면을 구성
+* 단 한 번만 리소스(HTML, CSS, JavaScript)를 로딩하며, 그 후에는 데이터를 받아올 때만 서버와 통신한다.
+* 즉, 최초 페이지를 로딩한 시점부터는 페이지 리로딩 없이 필요한 부분만 서버로 부터 받아서 화면을 갱신한다.
+
+> 새로고침을 통한 페이지 리로딩을 최소화하기 때문에, 네이티브 앱과 유사한 UX을 제공할 수 있어!!&#x20;
+
+<figure><img src=".gitbook/assets/스크린샷 2022-11-30 오후 6.01.26.png" alt=""><figcaption></figcaption></figure>
+
+
+
+### React의 주요 특징 2 : 단방향 데이터 바인딩
+
+데이터 바인딩 : **화면상에 보여지는 데이터(View)**와 **브라우저 메모리에 있는 데이터(Model)**를 묶어서(Binding) 서로 간의 데이터를 동기화하는 것
+
+<figure><img src=".gitbook/assets/스크린샷 2022-11-30 오후 6.08.33.png" alt=""><figcaption><p>단방향의 컴포넌트 내 데이터 플로우</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/스크린샷 2022-11-30 오후 6.06.48.png" alt=""><figcaption><p>부모 -> 자식 방향의 컴포넌트간 데이터 플로우</p></figcaption></figure>
+
+
 

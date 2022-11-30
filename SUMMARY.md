@@ -3,7 +3,7 @@
 ## week 2
 
 * [What is React?](README.md)
-* [Coming Soon..](week-2/coming-soon...md)
+* [React의 핵심 개념](week-2/react.md)
 
 ## week 3
 

@@ -20,3 +20,12 @@ npx create-react-app study-demo1
 * public/index.html
 * src/index.js
 * src/App.js
+
+
+
+**참고!!**
+
+* JSX 문법에서는 무조건 루트 요소는 1개여야 한다.
+* 컴포넌트 첫글자는 무조건 대문자로 작성해줘야 한다.
+* 컴포넌트를 생성한 파일명은 첫글자를 대문자로 작성해주는 것이 좋고, js vs jsx 확장자 사용은 본인의 선택!
+* 컴포넌트 기본코드 자동완성 익스텐션 : **VS Code ES7+ React/Redux/React-Native/JS snippets**

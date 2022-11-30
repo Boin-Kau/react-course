@@ -1,13 +1,8 @@
 # Table of contents
 
-## Week 1
-
-* [Javascript Essentials](README.md)
-* [과제](week-1/undefined.md)
-* [참고자료](week-1/undefined-1.md)
-
 ## week 2
 
+* [What is React?](README.md)
 * [Coming Soon..](week-2/coming-soon...md)
 
 ## week 3

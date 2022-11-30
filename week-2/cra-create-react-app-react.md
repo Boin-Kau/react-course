@@ -6,3 +6,17 @@ description: >-
 
 # CRA(Create-React-App)으로 React 시작하기
 
+## **CRA(create-react-app) 프로젝트 만들기**
+
+* node -v : v16
+* npm -v : 8
+
+```bash
+npx create-react-app study-demo1
+```
+
+**주요 파일**
+
+* public/index.html
+* src/index.js
+* src/App.js

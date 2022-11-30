@@ -62,3 +62,36 @@ props는 3가지 관점에서 이해해볼 수 있다.&#x20;
 
 ## <mark style="background-color:yellow;">State</mark>
 
+* Component의 내부(상태) 값. 당연히 각 Component 내부에서 관리됨.&#x20;
+* 앱의 유동적이고 변화하는 데이터를 다루기 위해 사용.
+* 함수형 Component에서는 **useState()** Hook을 통해 state를 생성하고 관리함.&#x20;
+
+### useState
+
+```javascript
+const FunctionalComponent = () => {
+    const [name, setName] = useState('');
+    
+    return (
+        <div>
+            <input 
+                value={name} 
+                onChange={(e) => setName(e.target.value)} 
+            />
+        </div>
+    )
+}
+
+export default FunctionalComponent;
+```
+
+* const \[state 값 저장 변수, state 값 갱신 함수] = useState('초기값');
+* state는 반드시 setState 함수로만 업데이트 해줘야합니다.&#x20;
+* Component의 바로 아래 로컬 scope에 선언해주어야 합니다. (Component의 로컬 함수에서 선언 불가능)
+
+
+
+### useState는 어떻게 동작하나요?
+
+
+

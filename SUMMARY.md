@@ -4,6 +4,7 @@
 
 * [What is React?](README.md)
 * [React의 핵심 개념](week-2/react.md)
+* [CRA(Create-React-App)으로 React 시작하기](week-2/cra-create-react-app-react.md)
 
 ## week 3
 

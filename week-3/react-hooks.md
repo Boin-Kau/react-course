@@ -92,10 +92,8 @@ class Card extends React.Component {
 ```
 {% endcode %}
 
-{% code title="함수형 Component에서의 state 활용" %}
-```javascript
-const Card = ({ title }) => {
-    const [darkMode, setDarkMode] = useState(true);
+<pre class="language-javascript" data-title="함수형 Component에서의 state 활용"><code class="lang-javascript"><strong>const Card = ({ title }) => {
+</strong>    const [darkMode, setDarkMode] = useState(true);
     
     const handleChange = (event) => {
         setDarkMode(!darkMode);
@@ -105,8 +103,7 @@ const Card = ({ title }) => {
         ...
     )
 }
-```
-{% endcode %}
+</code></pre>
 
 
 
@@ -144,8 +141,50 @@ class Card extends React.Component {
 
 {% code title="함수형 Component에서의 생명주기 " %}
 ```javascript
+const Card = () => {
+    const [name, setName] = useState("");
+    
+    useEffect(() => {
+        axios.get(url)
+          .then(res => setName(res.data.name))
+    },[]);
+    
+    return (
+        <div>
+            이름: {name}
+        </div>
+    )
+}
 ```
 {% endcode %}
+
+
+
+### <mark style="background-color:yellow;">useEffect로 표한한 3가지 Lifecycle Method</mark>
+
+```javascript
+useEffect(() => {
+// 데이터 조회하기
+// 자동로그인 판별
+
+// 컴포넌트가 화면에 가장 처음 렌더링됐을 때에만 실행하고 싶을 때
+},[]);
+
+useEffect(() => {
+	if(email && password) {
+		setFlag(true);
+		return;
+	}
+	setFlag(false);
+// 특정 값이 업데이트될 때마다 실행하고 싶을 때
+},[email, password]); // 옆의 배열을 useEffect의 dependency array라고 부름
+
+useEffect(() => {
+	return () => {
+		// 컴포넌트가 사라지기 직전에 특정 코드를 실행하고 싶을 때
+	};
+},[]);
+```
 
 
 

@@ -9,6 +9,7 @@
 ## week 3
 
 * [Javascript Essentials 1](week-3/coming-soon...md)
+* [React Hooks](week-3/react-hooks.md)
 
 ## week 4
 

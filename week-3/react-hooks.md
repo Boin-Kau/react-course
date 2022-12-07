@@ -162,6 +162,8 @@ const Card = () => {
 
 ### <mark style="background-color:yellow;">useEffect로 표한한 3가지 Lifecycle Method</mark>
 
+클래스형 Component에서 componentDidMount, componentDidUpdate, componentWillUnmount가 제공해주는 생명주기 기능을 **함수형 Component**에서는 **useEffect** Hook 하나로 구현할 수 있다.&#x20;
+
 ```javascript
 useEffect(() => {
 // 데이터 조회하기

@@ -10,6 +10,7 @@
 
 * [Javascript Essentials 1](week-3/coming-soon...md)
 * [React Hooks](week-3/react-hooks.md)
+* [React Routing](week-3/react-routing.md)
 
 ## week 4
 

@@ -8,7 +8,7 @@
 
 ## week 3
 
-* [Javascript Essentials 1](week-3/javascript-essentials-1.md)
+* [Javascript Essentials 1](week-3/coming-soon...md)
 
 ## week 4
 

@@ -37,7 +37,7 @@ console.log(global); // 전역변수가 오염되어 '지역'이 출력됨
 ```javascript
 console.log(num); // undefined가 출력됨
 var num; // 선언 
-num = 6 // 초기화
+num = 6; // 초기화
 ```
 
 {% hint style="info" %}
@@ -65,4 +65,65 @@ function getData () {
 ```
 
 
+
+<mark style="background-color:blue;">**let은 재선언은 불가, 재할당은 가능! const는 둘 다 불가**</mark>
+
+```javascript
+let name = '찰스';
+let name = '김보인';
+console.log(name); // 에러발생('name' has already been declared)
+
+let num = 100;
+num = 1;
+console.log(num); // 1이 출력됨(let은 재할당 가능)
+
+const num2 = 100;
+num2 = 1;
+console.log(num2); // 에러발생(Assignment to constant variable)
+```
+
+{% hint style="info" %}
+const는 변수에 값을 재할당한느 것은 안되지만&#x20;
+
+객체, 배열 등 레퍼런스 객체 내부의 값을 조정하는 것은 가능.
+{% endhint %}
+
+```javascript
+const grade = {
+    math: 100,
+    korean: 85,
+}
+grade.math = 0;
+grade.korean = 100;
+
+console.log(grade); // {"math":0,"korean":100}이 출력됨
+```
+
+
+
+<mark style="background-color:blue;">**let과 const는 블록 스코프(block scope)를 따름**</mark>
+
+```javascript
+let global = '전역';
+
+if (global === '전역') {
+    let global = '지역';
+    console.log(global); // '지역'이 출력됨
+}
+console.log(global); // '전역'이 출력됨
+
+// const도 동일한 결과가 출력됨
+```
+
+
+
+<mark style="background-color:blue;">**let과 const는 변수 호이스팅 불가**</mark>
+
+```javascript
+console.log(num); // 에러발생(Cannot access 'num' before initialization)
+let num;
+num = 6;
+
+// const도 동일한 결과가 출력됨
+```
 

@@ -40,3 +40,53 @@ Root가 다른 자식 컴포넌트들이 같은 state를 공유해야하는 경�
 
 
 
+## Recoil
+
+<figure><img src="../.gitbook/assets/Untitled.png" alt=""><figcaption></figcaption></figure>
+
+### <mark style="background-color:yellow;">Recoil의 특징</mark>
+
+_**Atom**_
+
+global state마다 **atom**이라는 상태 단위를 생성하여 관리합니다.&#x20;
+
+atom은 **업데이트**와 **구독**이 가능합니다. atom이 업데이트 되면, 해당 atom을 구독하고 있던 모든 컴포넌트들의 state가 새로운 값으로 리렌더링 됩니다. **동일한 atom을 여러 컴포넌트에서 구독**할 수 있습니다.&#x20;
+
+
+
+```javascript
+import { atom } from 'recoil';
+
+const fontSizeState = atom({
+  key: 'fontSizeState',
+  default: 14,
+});
+```
+
+* **atom의 key는 unique** 해야합니다. 일반적으로 atom을 할당한 변수와 동일한 이름으로 key 이름을 지어줍니다.&#x20;
+* **default** 속성에는 **state의 초기값**을 넣어줍니다.&#x20;
+
+_****_
+
+_**Selector**_
+
+Selector 는 상태를 기반으로 전달된 데이터를 **가공**할 때 사용됩니다. 또한, 주어진 종속성 값 집합에 대해 항상 동일한 값을 반환하는 부작용이 없는 "순수함수"입니다.&#x20;
+
+최소한의 상태 집합만 atoms에 저장하고 다른 모든 파생되는 데이터는 selectors에 명시한 함수를 통해 효율적으로 계산함으로써 쓸모없는 상태의 보존을 방지합니다.&#x20;
+
+* selector의 key 역시 unique 해야합니다.&#x20;
+
+```javascript
+import { selector } from 'recoil';
+...
+
+const fontSizeLabelState = selector({
+  key: 'fontSizeLabelState',
+  get: ({get}) => {
+    const fontSize = get(fontSizeState);
+    const unit = 'px';
+
+    return `${fontSize}${unit}`;
+  },
+});
+```

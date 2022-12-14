@@ -90,3 +90,31 @@ const fontSizeLabelState = selector({
   },
 });
 ```
+
+### <mark style="background-color:yellow;">설치하기</mark>
+
+```bash
+npm i recoil 
+```
+
+### <mark style="background-color:yellow;">RecoilRoot</mark>
+
+```jsx
+// src/index.js
+
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+import { RecoilRoot } from 'recoil';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <RecoilRoot>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </RecoilRoot>
+);
+```
+
+### <mark style="background-color:yellow;">useRecoilState, useRecoilValue, useSetRecoilState</mark>

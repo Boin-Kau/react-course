@@ -14,7 +14,7 @@
 
 ## week 4
 
-* [Coming Soon..](week-4/coming-soon...md)
+* [Styled-Components](week-4/coming-soon...md)
 
 ## week 5
 

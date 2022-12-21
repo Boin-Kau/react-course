@@ -20,7 +20,7 @@
 
 ## week 5
 
-* [Coming Soon..](week-5/coming-soon...md)
+* [Network 기초 개념](week-5/coming-soon...md)
 
 ## week 6
 

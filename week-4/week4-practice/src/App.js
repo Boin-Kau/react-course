@@ -56,5 +56,5 @@ const Wrapper = styled.div`
 const ParentWrapper = styled(Wrapper)`
   background-color: yellow;
   padding: 16px
-
 `;
+

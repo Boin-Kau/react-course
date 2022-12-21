@@ -21,7 +21,8 @@
 ## week 5
 
 * [Network 기초 개념](week-5/coming-soon...md)
-* [데이터 모킹 라이브러리](week-5/undefined.md)
+* [자바스크립트 비동기](week-5/undefined.md)
+* [데이터 모킹 라이브러리](week-5/undefined-1.md)
 
 ## week 6
 

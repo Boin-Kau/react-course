@@ -1,6 +1,2 @@
----
-description: 프론트엔드 개발자가 알아야할 네트워크 기초 개념에 대해 알아봅시다.
----
-
-# Network 기초 개념
+# Coming Soon..
 

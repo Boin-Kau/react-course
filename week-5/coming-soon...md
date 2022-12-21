@@ -66,7 +66,7 @@ HTTP 요청 및 응답 시 전달하는 메시지에는 다양한 정보들이 �
 
 HTTP 요청 시작 줄에는 **HTTP 메서드, URI, HTTP 버전**이 들어갑니다.
 
-HTTP 메서드(Method)는 서버가 수행해야할 동작을 나타냅니다. 메서드의 종류는 총 9가지가 있지만, 주로 사용되는 메서드는 총 5가지입니다.
+**HTTP 메서드(Method)**는 서버가 수행해야할 동작을 나타냅니다. 메서드의 종류는 총 9가지가 있지만, 주로 사용되는 메서드는 총 5가지입니다.
 
 \-       GET : 리소스 조회
 
@@ -78,9 +78,9 @@ HTTP 메서드(Method)는 서버가 수행해야할 동작을 나타냅니다. �
 
 \-       DELETE : 리소스 삭제
 
-URI(Uniform Resource Identifier)는 특정 리소스를 식별하는 통합 자원 식별자입니다. 말은 어렵지만 우리에게 친숙한 http://www.google.com과 같은 형태가 바로 URI입니다.
+**URI(Uniform Resource Identifier)**는 특정 리소스를 식별하는 통합 자원 식별자입니다. 말은 어렵지만 우리에게 친숙한 http://www.google.com과 같은 형태가 바로 URI입니다.
 
-scheme:\[//\[user\[:password]@]host\[:port]]\[/path]\[?query]\[#fragment]
+`scheme:[//[user[:password]@]host[:port]][/path][?query][#fragment]`
 
 \-       scheme : 사용할 프로토콜 종류(http, https 등)
 
@@ -94,4 +94,4 @@ scheme:\[//\[user\[:password]@]host\[:port]]\[/path]\[?query]\[#fragment]
 
 \-       fragment : 메인 리소스 내에 존재하는 서브 리소스에 접근할 때 이를 식별하기 위한 정보
 
-마지막으로 HTTP 버전에는 HTTP/1.0, HTTP/1.1, HTTP/2, HTTP/3이 있으며 기존의 문제점을 해결하기 위해 더 높은 버전의 HTTP가 등장했습니다.
+**HTTP 버전**에는 HTTP/1.0, HTTP/1.1, HTTP/2, HTTP/3이 있으며 기존의 문제점을 해결하기 위해 더 높은 버전의 HTTP가 등장했습니다.

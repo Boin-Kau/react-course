@@ -6,6 +6,8 @@ description: Recoil selector, suspense 등 비동기 처리와 관련된 개념�
 
 [Recoil Selectors 공식문서](https://recoiljs.org/ko/docs/basic-tutorial/selectors/)
 
+[사용할 API](https://jsonplaceholder.typicode.com/)
+
 **recoil/todo.js**
 
 ```javascript

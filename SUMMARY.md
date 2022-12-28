@@ -26,4 +26,4 @@
 
 ## week 6
 
-* [Coming Soon..](week-6/coming-soon...md)
+* [Recoil 비동기 처리](week-6/coming-soon...md)

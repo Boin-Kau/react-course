@@ -29,3 +29,4 @@
 * [Recoil 비동기 처리](week-6/coming-soon...md)
 * [Auth(사용자 인증) 방식](week-6/auth.md)
 * [소셜로그인](week-6/undefined.md)
+* [페이징](week-6/undefined-1.md)

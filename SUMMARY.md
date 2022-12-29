@@ -26,4 +26,8 @@
 
 ## week 6
 
-* [Coming Soon..](week-6/coming-soon...md)
+* [Recoil 비동기 처리](week-6/coming-soon...md)
+* [Auth(사용자 인증) 방식](week-6/auth.md)
+* [소셜로그인](week-6/undefined.md)
+* [페이징](week-6/undefined-1.md)
+* [이미지, 파일 업로드를 위한 클라우드 스토리지 활용](week-6/undefined-2.md)

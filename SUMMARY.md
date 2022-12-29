@@ -27,3 +27,4 @@
 ## week 6
 
 * [Recoil 비동기 처리](week-6/coming-soon...md)
+* [Auth(사용자 인증) 방식](week-6/auth.md)

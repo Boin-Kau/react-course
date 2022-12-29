@@ -20,9 +20,9 @@ description: 프론트엔드 개발자가 알아야할 네트워크 기초 개�
 
 ### <mark style="background-color:yellow;">서버 개발자는 어떤 일을 하는지 전반적인 아키텍쳐를 통해 이해하기</mark>
 
-<figure><img src="../.gitbook/assets/스크린샷 2022-10-15 오전 8.32.58.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/스크린샷 2022-10-15 오전 8.32.58.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/스크린샷 2022-10-15 오전 8.48.16.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/스크린샷 2022-10-15 오전 8.48.16.png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="background-color:yellow;">서버 개발자와 협업할 때, 클라이언트 개발자가 알아야할 것</mark>
 

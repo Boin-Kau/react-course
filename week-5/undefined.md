@@ -8,7 +8,7 @@ description: Promise, async/await 등 자바스크립트 비동기와 관련된 
 
 자바스크립트는 기본적으로 Synchronous-nonblocking으로 동작합니다.&#x20;
 
-<figure><img src="../.gitbook/assets/스크린샷 2022-10-15 오전 9.46.48.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/스크린샷 2022-10-15 오전 9.46.48.png" alt=""><figcaption></figcaption></figure>
 
 ## Promise
 
